@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizAppCSE</string>
+    <string name="Quiz_App">Quiz App</string>
+    <string name="desc">Let\'s play Quiz together</string>
+    <string name="items">All items</string>
+    <string name="finish">Finish</string>
+    <string name="enter_question">Enter question</string>
+</resources>

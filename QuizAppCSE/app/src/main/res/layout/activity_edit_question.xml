@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Edit Text for displaying and updating the question -->
+    <EditText
+        android:id="@+id/editQuestionEditText"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter question"
+        android:text="" />
+
+    <!-- Edit Texts for updating the options -->
+    <EditText
+        android:id="@+id/editOption1EditText"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 1"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editOption2EditText"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 2"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editOption3EditText"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 3"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editOption4EditText"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 4"
+        android:text="" />
+
+    <!-- Edit Text for updating the correct answer -->
+    <EditText
+        android:id="@+id/editCorrectAnswerEditText"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct answer"
+        android:text="" />
+
+    <!-- Button to save changes to the question -->
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+
+    <!-- Button to delete the question -->
+    <Button
+        android:id="@+id/deleteQuestionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Question"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
